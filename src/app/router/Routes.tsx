@@ -1,4 +1,4 @@
-import { Navigate, RouteObject, createBrowserRouter } from "react-router-dom";
+import { RouteObject, createBrowserRouter } from "react-router-dom";
 import App from "../../App";
 import Chat from "../../features/chat/Chat";
 import NotFound from "../../features/errors/NotFound";
