@@ -6,7 +6,7 @@ import NotFound from "../../features/errors/NotFound";
 
 export const routes: RouteObject[] = [
     {
-        path: "", element: <App /> ,
+        path: "/", element: <App /> ,
         children: [
             { path: 'chat', element: <Chat /> },
             { path: 'not-found', element: <NotFound />},
