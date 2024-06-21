@@ -7,7 +7,7 @@ import PathNotFound from './components/test/PathNotFound';
 
 const Router = createBrowserRouter([
     {
-        path: '/',
+        path: '/ks_guard_react',
         element: <RootPage />,
         children: [
             {
