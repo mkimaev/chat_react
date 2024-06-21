@@ -1,0 +1,12 @@
+.modal {
+    /*width: 50%;*/
+    max-width: 30rem;
+    /*background-color: #6b5e81;*/
+    color: cornflowerblue;
+    border-radius: 8px;
+    border: none;
+}
+
+    .modal::backdrop {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
