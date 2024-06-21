@@ -7,7 +7,7 @@ import { router } from "../../App";
 
 
 function generateURL(page: string): string {
-    const mainPath = '/ks_guard_react';
+    const mainPath = '/ks_guard_react/';
     return `${mainPath}${page}`;
 }
 
